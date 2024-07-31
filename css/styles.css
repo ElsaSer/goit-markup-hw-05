@@ -421,12 +421,31 @@ body .footer-desc {
   height: 80px;
 }
 
-.footer-form{
+.footer-form {
   display: flex;
   gap: 24px;
 }
 
-.footer-button{
+.footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.footer-input::placeholder {
+  color: #fff;
+}
+
+.footer-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -451,4 +470,5 @@ body .footer-desc {
 .footer-button:focus {
   background-color: #404bbf;
 }
+
 
