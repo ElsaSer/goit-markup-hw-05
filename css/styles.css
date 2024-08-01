@@ -514,14 +514,14 @@ body .footer-desc {
   padding: 72px 24px 24px 24px;
 }
 
-.modal-close:focus .input-icon,
-.modal-close:hover .input-icon {
+.modal-close:focus .icon-close,
+.modal-close:hover .icon-close {
   fill: #ffffff;
 }
 
 
-.modal-close:hover .input-icon,
-.modal-close:focus .input-icon {
+.modal-close:hover .icon-close,
+.modal-close:focus .icon-close {
   background-color: #404bbf;
   border: none;
 }
