@@ -514,13 +514,18 @@ body .footer-desc {
   padding: 72px 24px 24px 24px;
 }
 
+.modal-close:focus .icon-close,
+.modal-close:hover .icon-close {
+  fill: #ffffff;
+}
+
 
 .modal-close:focus .icon-close,
-.modal-close:hover .icon-close{
-  fill: #ffffff;
+.modal-close:hover .icon-close {
   background-color: #404bbf;
   border: none;
 }
+
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
