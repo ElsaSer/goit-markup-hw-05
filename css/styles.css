@@ -515,17 +515,15 @@ body .footer-desc {
 }
 
 .modal-close:focus .icon-close,
-.modal-close:hover .icon-close {
+.modal-close:hover .icon-close{
   fill: #ffffff;
 }
 
-
-.modal-close:hover .icon-close,
-.modal-close:focus .icon-close {
+.modal-close:hover,
+.modal-close:focus{
   background-color: #404bbf;
   border: none;
 }
-
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
