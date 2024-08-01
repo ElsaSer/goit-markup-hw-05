@@ -520,8 +520,8 @@ body .footer-desc {
 }
 
 
-.modal-close:focus .icon-close,
-.modal-close:hover .icon-close {
+.modal-close:hover .icon-close,
+.modal-close:focus .icon-close {
   background-color: #404bbf;
   border: none;
 }
